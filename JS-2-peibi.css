@@ -1,0 +1,208 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+boby {
+  background-color: #ededed;
+  width: 100%;
+}
+
+/* 通用部分*/
+.flex-box {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-down {
+  flex-direction: column;
+}
+
+/* 页眉部分*/
+header {
+  height: 4.4rem;
+  background-color: #29bde0;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+header .bg-Back___Icon {
+  width: 13px;
+  height: 21px;
+  background: url("JS-2-配比_sprites.png") -10px -55px;
+  margin: 0 0 0 1rem;
+}
+
+header .bg-circled_help {
+  width: 25px;
+  height: 25px;
+  background: url("JS-2-配比_sprites.png") -10px -10px;
+  margin: 0 1rem 0 0;
+}
+
+/* 设置部分*/
+.matching-frame, .Phrase-box, .slide-box {
+  margin: 1rem 2%;
+  background: #ffffff;
+}
+
+.matching-frame .matching-box-a, .Phrase-box .matching-box-a, .slide-box .matching-box-a {
+  width: 18%;
+  height: 22.6rem;
+  border: 1px solid #ededed;
+}
+
+.matching-frame .matching-box-a > p, .Phrase-box .matching-box-a > p, .slide-box .matching-box-a > p {
+  font-size: 1.8rem;
+  width: 1.9rem;
+  color: black;
+}
+
+.matching-frame .matching-box-b, .Phrase-box .matching-box-b, .slide-box .matching-box-b {
+  width: 82%;
+  height: 22.6rem;
+  border: 1px solid #ededed;
+}
+
+.matching-frame .matching-box-b .matching-box-number, .Phrase-box .matching-box-b .matching-box-number, .slide-box .matching-box-b .matching-box-number {
+  width: 100%;
+  height: 19.6rem;
+  flex-wrap: wrap;
+}
+
+.matching-frame .matching-box-b .matching-box-number .matching-box-introduce, .Phrase-box .matching-box-b .matching-box-number .matching-box-introduce, .slide-box .matching-box-b .matching-box-number .matching-box-introduce {
+  width: 50%;
+  font-size: 1.3rem;
+  color: #b0b0b0;
+}
+
+.matching-frame .matching-box-b .matching-box-number .matching-box-introduce .matching-box-bluedot, .Phrase-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-bluedot, .slide-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-bluedot, .matching-frame .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot, .Phrase-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot, .slide-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #29bde0;
+}
+
+.matching-frame .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot, .Phrase-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot, .slide-box .matching-box-b .matching-box-number .matching-box-introduce .matching-box-orangedot {
+  background: #ee9f1b;
+}
+
+.matching-frame .matching-box-b .matching-box-Set, .Phrase-box .matching-box-b .matching-box-Set, .slide-box .matching-box-b .matching-box-Set {
+  width: 100%;
+  height: 3rem;
+  font-size: 1.4rem;
+  color: #29bde0;
+  border-top: 1px solid #ededed;
+}
+
+.matching-frame .matching-box-b .matching-box-Set .bg-pencil, .Phrase-box .matching-box-b .matching-box-Set .bg-pencil, .slide-box .matching-box-b .matching-box-Set .bg-pencil {
+  width: 7px;
+  height: 7px;
+  background: url("JS-2-配比_sprites.png") -105px -46px;
+  margin: 0 0 0 0.5rem;
+}
+
+.Phrase-box {
+  height: 10rem;
+}
+
+.Phrase-box .Phrase-box-shuimin {
+  margin: 0 2% 1rem 2%;
+  height: 50%;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+/*placeholder字体颜色大小*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #d9d9d9;
+  font-size: 1.4rem;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #d9d9d9;
+  font-size: 1.4rem;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #d9d9d9;
+  font-size: 1.4rem;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #d9d9d9;
+  font-size: 1.4rem;
+}
+
+.slide-box {
+  color: black;
+  font-size: 1.4rem;
+  height: 9.45rem;
+}
+
+.slide-box .slide-number {
+  border: none;
+  color: #ee9f1b;
+  font-size: 1.7rem;
+  background: #f4f5f5;
+  width: 3rem;
+  height: 2.1rem;
+  text-align: center;
+}
+
+.slide-box > .flex-box > p {
+  margin: 0 1.3rem;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 0.2rem;
+  background: #ee9f1b;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 18px;
+  background: url("JS-2-配比_sprites.png") -55px -10px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+.bg-jianshao {
+  width: 16px;
+  height: 15px;
+  background: url("JS-2-配比_sprites.png") -43px -55px;
+  margin: 0 1rem;
+}
+
+.bg-zengjia {
+  width: 15px;
+  height: 16px;
+  background: url("JS-2-配比_sprites.png") -105px -10px;
+  margin: 0 1rem;
+}
+
+.footer {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin: 1rem 2%;
+  height: 4.4rem;
+  width: 96%;
+  background-color: #ee9f1b;
+  color: #ffffff;
+  font-size: 2rem;
+}

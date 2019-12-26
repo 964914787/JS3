@@ -1,0 +1,107 @@
+@charset"utf-8";
+html{
+  height: 100%;
+  font-size: 62.5%
+}
+body {
+    background: #29bde0;
+    width: 100%;
+}
+/* 通用部分*/
+.flex-box {
+    display: flex
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-space {
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-down {
+  flex-direction: column;
+}
+.backgr {
+    background: #29bde0;
+    width: 100%;
+}
+/* 页眉部分*/
+header {
+    height: 4.4rem;
+    width: 100%;
+    background: #29bde0;
+    font-size: 1.7rem;
+    color: #fff;
+    border-bottom: 1px #50c9e6 solid;
+
+    .bg-Back___Icon {
+        width: 13px; height: 21px;
+        background: url('JS-2-Viewidentity.png') -10px -181px;
+        margin: 0 0 0 1.2rem;
+    }
+    .bg-Close {
+        width: 18px; height: 19px;
+        background: url('JS-2-Viewidentity.png') -181px -141px;
+        margin: 0 1rem 0 0;
+    }
+}
+.serial-number {
+    width: 3.4rem;
+    height: 3.4rem;
+    border: 2px #ffedc5 solid;
+    background: #fff;
+    color: #f56b81;
+    font-size: 2rem;
+    border-radius: 50px;
+    margin: 0 0 -8rem 0;
+    z-index: 1;
+}
+.cards {
+    width: 23rem;
+    height: 32.2rem;
+    background: #ffedc5;
+    border: 3px #fff solid;
+    margin: 4rem 0 0 0 ;
+
+    .bg-flop {
+        width: 151px; height: 151px;
+        background: url('JS-2-Viewidentity.png') -10px -10px;
+       
+        
+    }
+    .identity {
+        color: #29bde0;
+        font-size: 2rem;
+        justify-content: center;
+        display: none;
+
+        .Phrase {
+            width: 100%;
+            color: #f56b81;
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: 1px #fff solid;
+            padding: 1rem 0;
+        }
+        .bg-flopTwo {
+            width: 111px; height: 111px;
+            background: url('JS-2-Viewidentity.png') -181px -10px;
+            margin: 1rem 0;
+        }
+        &>span {
+            color: #fca000;
+            font-size: 1.3rem;
+            margin: 2rem 1rem;
+        }
+    }
+    
+}
+.footer-btn {
+    width: 24.5rem;
+    height: 4.25rem;
+    background: #fbb435;
+    color: #fff;
+    font-size: 2.4rem;
+    margin: 6rem 0 3rem 0;
+}

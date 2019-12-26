@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+    font-size: 62.5%
+}
+body{
+    background-color: #efefef;
+}
+*{
+    margin:0;padding:0
+}
+p{
+    font-size: 1.2rem;
+    color: #b2b2b2;
+}
+/*页眉菜单*/
+.header{
+    display: flex;
+    align-items: center;
+    height: 4.4rem;
+    width: 100vw;
+    background-color: #29bde0;
+}
+.bg-menu {
+    width: 17px; height: 14px;
+    background: url('css7-1_sprites.png') -77px -10px;
+    margin-left: 1.1rem;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88.7%;
+    height: 5.8rem;
+    margin-left: 5.56%;
+    margin-top: 1.2rem;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+}
+/*第一个框*/
+.bg-Back_Icon {
+    width: 12px; height: 21px;
+    background: url('css7-1_sprites.png') -45px -10px;
+    margin-right: 0.7rem;
+}
+.box2{
+    width: 88.7%;
+    height: 38.8rem;
+    background-color: #fff;
+    margin-left: 5.56%;
+    margin-top: 1.2rem;
+    border: 1px solid #dbdbdb;
+}
+/*下面的大框*/
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4.6rem;
+    border-bottom: 1px solid #fddca1;
+}
+.word{
+    font-size: 1.88rem;
+    color: #fbb435;
+}
+/*捉鬼游戏框*/
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81.6%;
+    height: 6.7rem;
+    background: #69d1e9;
+    margin-left: 9%;
+    margin-top: 1.4rem;
+
+}
+a:link {
+    text-decoration: none;
+  }
+.word1{
+    font-size: 1.6rem;
+    color: #fff;
+}
+/*简化版框*/
+.word2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 2.6rem;
+}
+.dot{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #69d1e9;
+    border-radius: 50%;
+}
+.dot1{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #f0f0f0;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.dot2{
+    width: 4.7rem;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.bg-polygon {
+    position: absolute;
+    top: 31.8rem;
+    left: 88vw;
+    width: 15px; height: 29px;
+    background: url('css7-1_sprites.png') -10px -10px;
+}

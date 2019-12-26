@@ -1,0 +1,149 @@
+html{
+    height: 100%;
+    font-size: 62.5%
+}
+*{
+    margin:0;padding:0
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 4.4rem;
+    width: 100%;
+    background: #29bde0;
+    border-bottom: 1px solid #50c9e6;
+}
+/*页眉*/
+.bg-homepage {
+    width: 26px; height: 22px;
+    background: url('css7-3_sprites.png') -73px -133px;
+    margin: 0 0 1rem 1rem;
+}
+/*页眉主页图片*/
+.header-word {
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 0.9rem;
+}
+/*页眉字*/
+.bg-Notes {
+    width: 20px; height: 21px;
+    background: url('css7-3_sprites.png') -119px -133px;
+    margin: 0 0.9rem 1.1rem 0;
+}
+/*页眉解析*/
+.box {
+    height: 31rem;
+    width: 100%;
+    background: #29bde0;
+    border-bottom: 1px solid #ededed;
+}
+.victory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.3rem;
+}
+/*胜利图标框*/
+.bg-victory {
+    width: 176px; height: 103px;
+    background: url('css7-3_sprites.png') -10px -10px;
+}
+.bg-One {
+    width: 43px; height: 42px;
+    background: url('css7-3_sprites.png') -10px -133px;
+    margin-top: 1.3rem;
+    margin-left: 6.5rem;
+}
+.victory-word {
+    font-size: 2.4rem;
+    color: white;
+    margin: 1rem 0 0 3.8rem;
+}
+/*胜利图标*/
+.box1 {
+    height: 18.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1-word {
+    width: 20rem;
+    font-size: 1.65rem;
+    color: #ffc865;
+}
+.box1-word1 {
+    width: 20rem;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    color: #d6f2f9;
+}
+/*胜利框文字*/
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    
+    border-bottom: 2px solid #efefef;
+}
+/*白框*/
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    width: 20rem;
+}
+.box3-word {
+    font-size: 1.5rem;
+    color: black;
+}
+
+/*t天数时间*/
+.box4 {
+    font-size: 1.3rem;
+    color: #a8a8a8;
+    margin-bottom: 1.6rem;
+    width: 20rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 7.75rem;
+    width: 100%;
+    background: rgba(153,223,240, 0.5);
+}
+.footer-continue {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #f66f6f;
+     width: 13.5rem;
+     height: 4.3rem;
+     font-size: 2rem;
+     color: white;
+     border-radius: 10px;
+     margin-left: 1.2rem;
+ }
+a:link {
+    text-decoration: none;
+}
+.footer-continue1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fbb435;
+    width: 13.5rem;
+    height: 4.3rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    margin-right: 1.2rem;
+}

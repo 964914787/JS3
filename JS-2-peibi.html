@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>配比设置页面</title>
+    <link rel="stylesheet" type="text/css" href="reset-styles.css">
+    <link rel="stylesheet" type="text/css" href="JS-2-peibi.min.css">
+
+</head>
+<body style="background: #f0f0f0">
+<header class="flex-box flex-space">
+    <div class="bg-Back___Icon"></div>
+    <p>参数设置</p>
+    <div class="bg-circled_help"></div>
+</header>
+<div class="matching-frame flex-box">
+    <div class="matching-box-a flex-box flex-center">
+        <p>玩家配比</p>
+    </div>
+    <div class="matching-box-b flex-box flex-down">
+        <div class="matching-box-number flex-box flex-center">
+            <div class="matching-box-introduce flex-box flex-center">
+                <div class="matching-box-orangedot"></div>
+                <p id="p1">&nbsp;&nbsp;幽&nbsp;&nbsp;&nbsp;灵&nbsp;1&nbsp;人</p>
+            </div>
+            <div class="matching-box-introduce flex-box flex-center">
+                <div class="matching-box-orangedot"></div>
+                <p id="p2">&nbsp;&nbsp;水&nbsp;&nbsp;&nbsp;民&nbsp;3&nbsp;人</p>
+            </div>
+
+        </div>
+        <div class="matching-box-Set flex-box flex-center">
+            <p>点击设置</p>
+            <div class="bg-pencil"></div>
+        </div>
+    </div>
+</div>
+<div class="Phrase-box flex-box flex-down">
+    <input type="text" style="outline:none;" class="Phrase-box-shuimin" placeholder="水民词组" value="" >
+    <input type="text" style="outline:none;" class="Phrase-box-shuimin" placeholder="幽灵词组" value="" >
+</div>
+<div class="slide-box flex-box flex-down">
+
+    <div class="flex-box" style="margin: 1rem 0 0 0">
+        <p>玩家人数</p>
+        <label>
+            <input type="text" oninput="value=value.replace(/[^\d]/g,'')"  style="outline:none;" class="slide-number" value="4" id="renshu">
+        </label>
+        <p>人</p>
+    </div>
+    <div class="flex-box flex-center" style="margin: 2.3rem 0 0 0">
+        <div class="bg-jianshao" id="jian"></div>
+        <input type="range" max="18" min="4" step="1" value="4" id="huadong">
+        <div class="bg-zengjia"></div>
+    </div>
+</div>
+<button class="footer flex-box flex-center">去发牌</button>
+
+<script src="JS-2-peibi.js"></script>
+</body>
+</html>

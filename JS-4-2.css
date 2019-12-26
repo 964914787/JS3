@@ -1,0 +1,168 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  background: #29bde0;
+  width: 100%;
+}
+
+/* 通用部分*/
+.flex-box {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-space {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-down {
+  flex-direction: column;
+}
+
+.backgr {
+  background: #29bde0;
+  width: 100%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* 页眉部分*/
+header {
+  height: 4.4rem;
+  width: 100%;
+  background: #29bde0;
+  font-size: 1.7rem;
+  color: #fff;
+  border-bottom: 1px #50c9e6 solid;
+}
+
+header .bg-Back___Icon {
+  width: 13px;
+  height: 21px;
+  background: url("JS-2-Viewidentity.png") -10px -181px;
+  margin: 0 0 0 1.2rem;
+}
+
+header .bg-Close {
+  width: 18px;
+  height: 19px;
+  background: url("JS-2-Viewidentity.png") -181px -141px;
+  margin: 0 1rem 0 0;
+}
+
+.polling-column {
+  height: 4rem;
+  background-color: #b9e9f5;
+  padding: 0 10%;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+.small-triangle {
+  padding: 0 10%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.small-triangle .small-triangle-box {
+  width: 0px;
+  height: 0px;
+  border: 1.1rem solid;
+  border-color: #b9e9f5 transparent transparent transparent;
+}
+
+.word {
+  box-sizing: border-box;
+  padding: 0 10%;
+  width: 100%;
+  color: #b9e9f5;
+  font-size: 1.2rem;
+}
+
+.card-frame {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 13.25rem 0;
+}
+
+.card-frame .cards-box {
+  width: 33.33%;
+}
+
+.card-frame .cards-box .cards {
+  width: 6.6rem;
+  height: 6.6rem;
+  border: 2px solid #fff;
+  margin: 2rem 0;
+}
+
+.card-frame .cards-box .cards .cards-a {
+  width: 100%;
+  height: 5.2rem;
+  background: #fbb435;
+  font-size: 1.8rem;
+  color: black;
+}
+
+.card-frame .cards-box .cards .cards-b {
+  width: 100%;
+  height: 1.4rem;
+  background: darkseagreen;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.card-frame .cards-box .knife {
+  display: none;
+  width: 15px;
+  height: 15px;
+  background: url("css7-2_sprites.png") -10px -96px;
+  margin: 1rem 0 0 2.5rem;
+}
+
+.cards:hover .cards-a:hover {
+  background: darkseagreen;
+}
+
+.cards:hover .knife {
+  display: block;
+}
+
+footer {
+  width: 100%;
+  background: #29bde0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-btn {
+  width: 75%;
+  height: 4.25rem;
+  background: #fbb435;
+  color: #fff;
+  font-size: 2.4rem;
+  margin: 4rem 0 4rem 0;
+}
+
+input[type="radio"]:checked + .cards .cards-a {
+  background: darkseagreen;
+}
+
+input[type="radio"] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
